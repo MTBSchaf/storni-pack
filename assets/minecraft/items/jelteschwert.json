@@ -8,7 +8,7 @@
         "when": "Jelte Schwert",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/jackpot_coin"
+          "model": "minecraft:jelteschwert/jackpot_coin"
         }
       }
     ],
