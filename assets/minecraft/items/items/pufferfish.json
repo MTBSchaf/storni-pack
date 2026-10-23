@@ -1,0 +1,90 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Spritze",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/spritze"
+        }
+      },
+      {
+        "when": "Kokain",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/kokain"
+        }
+      },
+      {
+        "when": "Vape",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/vape"
+        }
+      },
+      {
+        "when": "Vodka",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/vodka"
+        }
+      },
+      {
+        "when": "Bier",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/bier"
+        }
+      },
+      {
+        "when": "Joint",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/joint"
+        }
+      },
+      {
+        "when": "Cannabis",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/marihuana"
+        }
+      },
+      {
+        "when": "Amphetamine",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/amphetamine"
+        }
+      },
+      {
+        "when": "Magic Mushrooms",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/mushroom"
+        }
+      },
+      {
+        "when": "K. O. Tropfen",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/tropfen"
+        }
+      },
+      {
+        "when": "Crack",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/Crack"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/pufferfish"
+    }
+  }
+}
