@@ -8,13 +8,13 @@
         "when": "Jelte Schwert",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:jelteschwert/jackpot_coin"
+          "model": "minecraft:item/jelteschwert"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/glow_berries"
+      "model": "minecraft:item/diamond_sword"
     }
   }
 }
