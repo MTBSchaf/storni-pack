@@ -1,0 +1,22 @@
+name: Build Pack
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Zip und SHA1
+        run: |
+          zip -r pack.zip pack.mcmeta assets
+          sha1sum pack.zip | cut -d' ' -f1 > pack.sha1
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          files: |
+            pack.zip
+            pack.sha1
